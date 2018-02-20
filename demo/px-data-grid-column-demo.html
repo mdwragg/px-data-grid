@@ -559,7 +559,7 @@
             name: 'Age',
             path: 'age',
             type: 'number',
-            width: '150px',
+            width: '50px',
             flexGrow: 0,
             hidden: false,
             editable: true,
@@ -574,13 +574,15 @@
           {
             name: 'First name',
             path: 'first',
+            width: '100px',
             editable: true,
             required: true,
             renderer: 'px-data-grid-string-renderer'
           },
           {
             name: 'Last name',
-            path: 'last'
+            path: 'last',
+            width: '100px'
           },
           {
             name: 'Email',
@@ -590,6 +592,7 @@
             name: 'Birth date',
             path: 'birth_date',
             type: 'date',
+            width: '50px',
             editable: true,
             renderer: 'px-data-grid-date-renderer',
             rendererConfig: {
